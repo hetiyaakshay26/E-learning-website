@@ -172,6 +172,8 @@ span {
 .page3 {
   margin-left: 140px;
   margin-top: 60px;
+  height: 120vh;
+  overflow-y: hidden;
 }
 .page3-heading {
   margin-right: 140px;
@@ -211,7 +213,179 @@ span {
   margin: 20px 0;
 }
 .p3-left p {
-  color: #292e37;
-  font-size: 17px;
+  color: #292e37a3;
+  font-size: 16px;
   line-height: 28px;
+}
+.page4 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.p4-left {
+  width: 70%;
+  overflow-y: hidden;
+  margin-left: 50px;
+}
+.p4-right {
+  width: 40%;
+  overflow-y: hidden;
+  overflow-y: hidden;
+}
+.circle {
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  background-color: #f3f8ff;
+}
+.price-cart {
+  z-index: 9;
+  position: absolute;
+  top: -30px;
+  left: 250px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 600px;
+  width: 350px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.price-cart h4 {
+  font-size: 24px;
+  padding-bottom: 10px;
+  color: #292e37;
+}
+.price-cart h2 {
+  font-size: 40px;
+  color: #292e37;
+
+  padding-bottom: 25px;
+}
+.price-cart p {
+  color: #525d73;
+  font-size: 18px;
+  padding-bottom: 25px;
+}
+.price-cart button {
+  padding: 15px 30px;
+  outline: none;
+  border: none;
+  background-color: #00acff;
+  color: #ffffff;
+  border-radius: 8px;
+}
+.btm-cart {
+  position: absolute;
+  top: 50px;
+  left: 460px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 450px;
+  color: #292e37;
+  width: 300px;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 2px solid #dcdcdc;
+}
+.btm-cart h4 {
+  font-size: 20px;
+  padding-bottom: 7px;
+}
+.btm-cart h2 {
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+.btm-cart p {
+  font-size: 16px;
+  padding-bottom: 20px;
+  color: #95949a;
+}
+.btm-cart button {
+  padding: 15px 30px;
+  outline: none;
+  border: none;
+  background-color: #fe5600;
+  color: #ffffff;
+  border-radius: 8px;
+}
+.likes-section {
+  z-index: 99;
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  justify-content: space-between;
+  padding: 15px;
+  gap: 25px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.like-left {
+  padding: 15px;
+  font-size: 20px;
+  background-color: #f3f8ff;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.like-left p {
+  font-size: 18px;
+}
+
+.like-right h4 {
+  font-size: 26px;
+}
+.like-right p {
+  font-size: 16px;
+  color: #95949a;
+}
+.p4-right {
+  margin-right: 80px;
+  flex-direction: column;
+}
+.p4-right span img {
+  padding: 10px;
+  background-color: #001caf;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.p4-right h2 {
+  font-size: 40px;
+  color: #292e37;
+  line-height: 55px;
+  overflow-y: hidden;
+  margin-bottom: 25px;
+}
+.p4-right p {
+  color: #525d73;
+  margin-bottom: 30px;
+}
+/* #f5f7ff */
+.btns button {
+  padding: 15px 50px;
+  outline: none;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+.btn-left {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #eff2ff;
+  color: #001caf;
+}
+.btn-right {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #001caf;
+  color: white;
 }
