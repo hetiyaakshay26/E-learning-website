@@ -389,3 +389,25 @@ span {
   background-color: #001caf;
   color: white;
 }
+.page5 {
+  min-height: 100vh;
+  margin-top: 50px;
+  margin-left: 140px;
+  margin-right: 140px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+.p5-left {
+  padding-bottom: 160px;
+}
+.p5-left h2 {
+  font-size: 40px;
+  line-height: 55px;
+  overflow-y: hidden;
+  color: #292e37;
+  margin-bottom: 20px;
+}
+.p5-left p {
+  font-size: 18px;
+}
